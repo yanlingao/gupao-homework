@@ -1,3 +1,4 @@
+##ingore intelij idea's automatically generated files
 .idea/
 out/
 *.iml
