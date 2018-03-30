@@ -30,3 +30,13 @@ proxy_pattern/src/com/ayl/gupao/homework/proxy_pattern
 4.lazy static inner class
 利用静态内部类的“在外部类被调用的时候内部类才能被加载”的特性。即避免了线程安全，也解决了内存浪费。并且不需要增加synchronized锁。
 在这里例子中也实现了增加boolean initialized属性避免反射入侵。
+
+
+###[prototype implement and shallow copy and deep copy]
+1. shallow copy
+使用jdk自动的clonable接口实现。拷贝对象只是复制了原生对象的属性的内存地址。并没有属于自己的一份在内存中的空间。
+
+2.deep copy
+使用读取原生对象的字节码实现拷贝。得到的拷贝对象拥有自己独立的属性。
+
+
