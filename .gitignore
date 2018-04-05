@@ -1,5 +1,40 @@
-##ingore intelij idea's automatically generated files
-.idea/
+# project logs
+logs/
 out/
-*.iml
+
+# jrebel
+rebel.xml
+
+# maven ignore
 target/
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# node_modules
+node_modules
