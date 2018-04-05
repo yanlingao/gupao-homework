@@ -40,5 +40,3 @@ proxy_pattern/src/com/ayl/gupao/homework/proxy_pattern
 使用读取原生对象的字节码实现拷贝。得到的拷贝对象拥有自己独立的属性。
 
 
-
-
