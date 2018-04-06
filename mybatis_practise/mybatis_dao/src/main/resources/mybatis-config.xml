@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeHandlers>
+        <typeHandler handler="com.ayl.gupao.handler.MyTypeHandler"/>
+    </typeHandlers>
+    <plugins>
+        <plugin interceptor="com.ayl.gupao.plugin.MyPlugin3"/>
+        <plugin interceptor="com.ayl.gupao.plugin.MyPlugin"/>
+        <plugin interceptor="com.ayl.gupao.plugin.MyPlugin2"/>
+    </plugins>
+</configuration>
