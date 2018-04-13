@@ -1,4 +1,4 @@
-###mybatis generator使用方法
+#### mybatis generator使用方法
 1. 添加maven依赖
 
     <dependencies>
