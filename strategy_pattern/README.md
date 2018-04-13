@@ -7,9 +7,9 @@
 3. 自驾
 
 用户调用方式：
-`TravelWayEnum.ByPlane.getTravelWay().start();
+TravelWayEnum.ByPlane.getTravelWay().start();
 TravelWayEnum.BySelfDriving.getTravelWay().start();
-TravelWayEnum.ByTrain.getTravelWay().start();`
+TravelWayEnum.ByTrain.getTravelWay().start();
 
 
 
